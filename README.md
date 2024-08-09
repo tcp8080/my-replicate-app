@@ -7,7 +7,15 @@ see [Build a website with Next.js](https://replicate.com/docs/get-started/nextjs
 First, run the development server:
 
 ```bash
+# for easy way, enter conda env
+
+# install node
+conda install -c conda-forge nodejs
+npm install -g npm@10.8.2
+
+# run web
 npm run dev
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
